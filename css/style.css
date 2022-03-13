@@ -1,0 +1,191 @@
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1200px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 950px;
+    height: 1100px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    box-shadow: rgb(0 0 0 / 40%) 0px 30px 90px;
+  }
+
+
+ /*------------ Lado A -----------------*/
+
+  
+  .container__esquerdo {
+    width: 390px;
+    height: 100%;
+    background: var(--oliva);
+  }
+  
+  header {
+    width: 280px;
+    height: 1200px;
+    margin-left: 60px;
+    margin-top: 55px;
+  }
+  
+  .imagem img {
+    border-radius: 50%;
+    width: 180px;
+    margin-left: 20px;
+  }
+  
+  .titulo {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 40px;
+    color: var(--preto);
+  }
+  
+  .titulo h1 {
+    font-size: 25px;
+    
+  }
+  
+  .titulo h2 {
+    margin-top: 25px;
+    letter-spacing: 5px;
+    color: var(--oliva-claro);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .borda__divisao {
+    background: var(--preto);
+    width: 270px;
+    height: 2px;
+    margin-top: 40px;
+  }
+  
+  .informacoes {
+    margin: 50px 0 50px 0;
+    line-height: 18px;
+  }
+  
+ .informacoes h3 {
+
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    color: var(--branco);
+  }
+  
+  .lista__habilidades {
+    list-style-position: inside;
+  }
+  
+  
+  .texto__esquerdo {
+
+    color: var(--preto);
+    font-size: 16px;
+    
+  }
+
+
+
+  .lista__contato {
+
+    font-size: 15px;
+    color: var(--preto);
+   
+
+    
+}
+
+  .item__lista {
+
+    color: var(--preto);
+    list-style-type: none;
+    
+}
+
+  .item__lista a {
+
+    text-decoration: none;
+    color: var(--preto);
+
+}
+
+.item__lista a:hover {
+
+  color: var(--branco);
+  text-transform: bold;
+
+
+}
+
+  ion-icon {
+
+    font-size: 23px;
+    color: var(--branco);
+    padding-top: 5px;
+    
+
+  }
+ 
+
+/*------------ Lado B -----------------*/
+
+  .container__direito {
+
+    width: 410px;
+    height: 100%;
+    margin: 30px;
+    color: var(--preto);
+    flex: 1;
+  }
+  
+
+  .caixa__direito {
+    
+    background: var(--oliva);
+    display: flex;
+    height: 45px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    width: 380px;
+  }
+  
+  .caixa__direito h2 {
+
+    
+    color: var(--branco);
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 80px;
+   
+  }
+  
+  .sub__titulo {
+    color: var(--malva);
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .container__direito h4 {
+    margin-bottom: 5px;
+  }
+  
+
+  .container__direito p {
+
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 15px;
+   
+  }
+  
+  

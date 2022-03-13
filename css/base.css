@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  :root {
+    --preto: #000;
+    --oliva: #6d815a;
+    --oliva-claro: #e0ebde;
+    --branco: #fff;
+    --malva: #BB6872;
+    --git: #9400FF;
+    --whats: #29C44D;
+     --montserrat: 'Montserrat', sans-serif;
+}
+
